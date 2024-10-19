@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: olive;
+    margin-top: 30px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'] {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type='text']:focus {
+    border-color: sandybrown;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: orange;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: aqua;
+  }
+  
+  #errorMessage {
+    text-align: center;
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  #weatherDisplay {
+    margin-top: 20px;
+    background-color: palegreen;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px palevioletred;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  li span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: salmon;
+    color: wheat;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li button:hover {
+    background-color: peru;
+  }
+  
+  li button:nth-of-type(1) {
+    background-color: gold;
+  }
+  
+  li button:nth-of-type(1):hover {
+    background-color: purple;
+  }
+  
